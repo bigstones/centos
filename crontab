@@ -33,7 +33,11 @@ crontab -r
 
 vi가 편하다면
 export EDITOR=vi
+vim가 편하다면
+export EDITOR=vim
 nano가 편하다면
 export EDITOR=nano
+pico가 편하다면
+export EDITOR=pico
 emacs가 편하다면
 export EDITOR=emacs
