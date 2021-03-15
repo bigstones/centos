@@ -1,0 +1,28 @@
+크론탭 시작
+service crond start
+크론탭 중지
+service crond stop
+크론탭 재시작
+service crond restart
+
+크론탭 설치여부 확인
+ps -ef | grep cron
+
+크론탭 편집
+crontab -e
+크론탭 목록 조회
+crontab -l
+크론탭 삭제
+crontab -r
+
+매 1분마다 실행
+* * * * * [명령어]
+
+매 30분마다 실행
+*/30 * * * * [명령어]
+
+매일 8시부터 19시까지 10분마다 실행
+*/10 8-19 * * * [명령어]
+
+매일 8시 19시 10분마다 실행
+*/10 8,19 * * * [명령어]
