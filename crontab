@@ -26,3 +26,14 @@ crontab -r
 
 매일 8시 19시 10분마다 실행
 */10 8,19 * * * [명령어]
+
+참고)crontab 설정을 수정한 후 재실행하지 않아도 바로 적용된다
+
+편집기가 익숙한 편집기가 아니라면 기본 편집기를 수정한다
+
+vi가 편하다면
+export EDITOR=vi
+nano가 편하다면
+export EDITOR=nano
+emacs가 편하다면
+export EDITOR=emacs
