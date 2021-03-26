@@ -1,8 +1,11 @@
 크론탭 시작
+service cron start
 service crond start
 크론탭 중지
+service cron stop
 service crond stop
 크론탭 재시작
+service cron restart
 service crond restart
 
 크론탭 설치여부 확인
