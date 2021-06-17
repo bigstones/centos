@@ -2,6 +2,13 @@
 
 리눅스 사용간 필요한 명령어들 모아두려고 만들었습니다
 
+## 첫 pip 설정
+
+    sudo [yum/apt] install epel-release
+    sudo [yum/apt] -y update 
+    [yum/apt] -y install python-pip
+    easy_install-3.6 pip
+
 
 ## ssh
 
