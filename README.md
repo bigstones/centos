@@ -107,3 +107,30 @@ ssh rsa 로 접근 시 명령어
   -R 
 
 로커 호스트와 지정된 포트로 전송될 원격 포트 설정 -->
+
+
+## 시간 설정
+
+현재시간 조회
+
+    date
+
+타임존 변경 1
+
+    sudo ln -sf /user/share/zoneinfo/Asia/Seoul /etc/localtime
+
+타임존 변경 2
+
+    sudo timedatectl set-timezone 'Asia/Seoul'
+
+타임존 변경 3
+
+    tzselect
+    4
+    23
+
+타임존 변경 4
+    
+    echo "TZ='Asia/Seoul'; export TZ" >> .profile
+    source ~/.profile
+
