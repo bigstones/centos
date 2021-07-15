@@ -9,14 +9,26 @@ root 계정 비밀번호 설정
 
 ## 첫 pip 설정
 
+<details>
+<summary>접기/펼치기</summary>
+<div markdown="1">
+
+
     sudo [yum/apt] install epel-release
     sudo [yum/apt] -y update 
     [yum/apt] -y install python-pip
     easy_install-3.6 pip
+    
+</div>
+</details>  
 
 ## editor 설정
 
     export EDITOR=vim
+    
+    export EDITOR=emac
+    
+    export EDITOR=nano
 
 ## ssh
 
