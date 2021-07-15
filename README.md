@@ -14,6 +14,9 @@ root 계정 비밀번호 설정
     [yum/apt] -y install python-pip
     easy_install-3.6 pip
 
+## editor 설정
+
+    export EDITOR=vim
 
 ## ssh
 
