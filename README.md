@@ -24,13 +24,27 @@ root 계정 비밀번호 설정
 
 ## editor 설정
 
+<details>
+<summary>접기/펼치기</summary>
+<div markdown="1">
+
+    
     export EDITOR=vim
     
     export EDITOR=emac
     
     export EDITOR=nano
+    
+
+</div>
+</details>  
 
 ## ssh
+
+
+<details>
+<summary>접기/펼치기</summary>
+<div markdown="1">
 
 ssh 접근 시 명령어
 
@@ -122,9 +136,19 @@ ssh rsa 로 접근 시 명령어
   -R 
 
 로커 호스트와 지정된 포트로 전송될 원격 포트 설정 -->
+    
+    
+</div>
+</details>  
+
 
 
 ## 시간 설정
+    
+    
+<details>
+<summary>접기/펼치기</summary>
+<div markdown="1">
 
 현재시간 조회
 
@@ -148,4 +172,8 @@ ssh rsa 로 접근 시 명령어
     
     echo "TZ='Asia/Seoul'; export TZ" >> .profile
     source ~/.profile
+
+    
+</div>
+</details>  
 
