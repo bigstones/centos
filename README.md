@@ -30,10 +30,13 @@ root 계정 비밀번호 설정
 
     
     export EDITOR=vim
+    export SVN_EDITOR=vim # 꼭하지 않아도 되긴함
     
     export EDITOR=emac
+    export SVN_EDITOR=emac
     
     export EDITOR=nano
+    export SVN_EDITOR=nano
     
 
 </div>
